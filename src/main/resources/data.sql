@@ -1,7 +1,12 @@
 delete
-from project;
+from project_app_user;
 delete
 from functional_component;
+delete
+from project;
+delete
+from app_user;
+
 
 insert into app_user (id, username, password)
 values (23, 'user', '$2a$10$NVM0n8ElaRgg7zWO1CxUdei7vWoPg91Lz2aYavh9.f9q0e4bRadue'),
