@@ -15,9 +15,14 @@ spring:
       #ddl-auto: update
 
 # Ja tämä on se, joka käynnistää databasen joka kerta alusta
-  sql:
-  init:
-    mode: always
+  #sql:
+  #init:
+    #mode: always
+
+  jpa:
+    hibernate:
+      ddl-auto: create
+
 
 
   cloud:
