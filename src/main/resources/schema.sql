@@ -1,4 +1,4 @@
-drop table if exists project, functional_component, app_user, project_app_user;
+drop table if exists project_app_user, functional_component, project, app_user, ;
 
 create table if not exists app_user
 (
