@@ -1,3 +1,7 @@
+delete
+from project;
+delete
+from functional_component;
 
 insert into app_user (id, username, password)
 values (23, 'user', '$2a$10$NVM0n8ElaRgg7zWO1CxUdei7vWoPg91Lz2aYavh9.f9q0e4bRadue'),
@@ -39,7 +43,7 @@ values (1, 'Interactive end-user input service', '1-functional', 2, 4, 2, null, 
 
 insert into project_app_user (project_id, app_user_id)
 values (99, 23),
-       (100, 23),
+       (100, 13),
        (101, 23);
 
 
