@@ -24,7 +24,7 @@ values (1, 'Interactive end-user input service', '1-functional', 2, 4, 2, null, 
 
 insert into project_app_user (project_id, app_user_id)
 values (99, 23),
-       (100, 13),
+       (100, 23),
        (101, 23);
 
 
