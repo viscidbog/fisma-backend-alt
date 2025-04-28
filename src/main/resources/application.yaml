@@ -4,21 +4,14 @@ spring:
 
 
   datasource:
-    username: ${SPRING_DATASOURCE_USERNAME}
-    password: ${SPRING_DATASOURCE_PASSWORD}
-    url: ${SPRING_DATASOURCE_URL}
+    username: myuser
+    password: secret
+    url: jdbc:postgresql://127.0.0.1:5432/fisma_db
 
 
-# Tämä on se update
-  #jpa:
-    #hibernate:
-      #ddl-auto: update
-
-# Ja tämä on se, joka käynnistää databasen joka kerta alusta
   sql:
-  init:
-    mode: always
-
+    init:
+      mode: always
 
   cloud:
     aws:
